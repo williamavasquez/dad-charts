@@ -1,4 +1,11 @@
-html, body {
-  height: 100%;
-  width: 100%;
-  background: red; }
+form {
+  display: flex; }
+  form .left-column {
+    flex: 1;
+    padding-right: 20px; }
+  form .right-column {
+    flex: 1;
+    padding-right: 20px; }
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

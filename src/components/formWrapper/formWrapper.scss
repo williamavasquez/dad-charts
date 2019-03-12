@@ -1,0 +1,13 @@
+form {
+  display: flex;
+
+  .left-column {
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  .right-column {
+    flex: 1;
+    padding-right: 20px;
+  }
+}

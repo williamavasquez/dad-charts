@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
+import FormWrapper from "componentsfolder/formWrapper/formWrapper"
 import "./homePage.scss"
-import TOformCreation from 'componentsfolder/TOformCreation/TOformCreation.js'
 
 class HomePage extends Component {
   constructor(props) {
@@ -13,8 +13,7 @@ class HomePage extends Component {
   render(){
     return (
       <div>
-        <p> Hello World 2 </p>
-        <TOformCreation />
+        <FormWrapper />
       </div>
     )
   }
